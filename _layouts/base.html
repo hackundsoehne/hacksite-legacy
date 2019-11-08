@@ -47,7 +47,9 @@ layout: compress
     
     <div class="content-wrapper fixed-footer-content">
         <div class="content">
-        	{% include crumbs.html %}
+            {% unless page.crumbs_hidden %}
+            	{% include crumbs.html %}
+            {% endunless %}
             {{ content }}
         </div>
     </div>
