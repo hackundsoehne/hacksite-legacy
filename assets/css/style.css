@@ -496,8 +496,10 @@ z-index: -1;
 ---------------------------------------*/
 /*
 .bg-1 { background: url(img/sf.jpg);}
-.bg-2 { background: url(../img/k1.jpg);}
 */
+.bg-2 {
+  background: url(/assets/img/page/k1.jpg);
+}
 
 .bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6, .bg-7, .bg-8, .bg-9, .bg-10{
   background-attachment: fixed; 
