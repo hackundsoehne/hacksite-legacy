@@ -1,0 +1,9 @@
+baseurl: ""
+url: "https://hackundsoehne.de"
+title: Hack &amp; Söhne
+description: >-
+  Student-run nonprofit organisation with passion for technology, working hard to make the latest advancements accessible through hackathons, tech-talks and bootcamps.
+author: Hack &amp; Söhne
+lang: en_US
+
+exclude: ["README.md"]
